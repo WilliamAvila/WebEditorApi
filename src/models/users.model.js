@@ -8,6 +8,7 @@ module.exports = function (app) {
   
     email: {type: String, unique: true, required: true},
     password: { type: String, required: true },
+    avatar: { type: String }
   
   
   }, {
